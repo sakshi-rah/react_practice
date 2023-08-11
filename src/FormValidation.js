@@ -1,8 +1,5 @@
 import { useState } from 'react'
-import { Button } from 'react-bootstrap';
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
-
+import { Button, Form , InputGroup } from 'react-bootstrap';
 function FormValidation() {
     const [user, setUser] = useState("");
     const [pass, setpass] = useState("");
@@ -60,7 +57,7 @@ function FormValidation() {
                     />
                 </InputGroup>
                 {passError ? <span>Invalid Password.!</span> : ""} <br/>
-                <Button variant='success'>Login</Button>
+                <Button variant='warning'>Login</Button>
 
             </form>
         </div>
