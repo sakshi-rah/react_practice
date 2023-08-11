@@ -1,12 +1,13 @@
 .success{
     background-color: green;
     color: goldenrod;
-    
+    margin: 10px;
 }
 .warning{
     background-color: yellow;
     color: black;
     padding: 5px;
+    margin: 10px;
 }
 .button{
     background-color: brown;

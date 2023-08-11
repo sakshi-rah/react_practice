@@ -1,5 +1,4 @@
 import { useState } from 'react'
-
 function FormDemo() {
     const [data, setData] = useState(null);
     const [print, setPrint] = useState(false);

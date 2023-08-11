@@ -1,10 +1,10 @@
 import './App.css';
-import HooksPrac from './HooksPrac';
+import FormValidation from './FormValidation'
 function App() {
   return (
 
     <div className="App">
-      <HooksPrac/>
+      <FormValidation/>
     </div>
 
   );
