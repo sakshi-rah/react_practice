@@ -1,0 +1,18 @@
+.success{
+    background-color: green;
+    color: goldenrod;
+    
+}
+.warning{
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+}
+.button{
+    background-color: brown;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}

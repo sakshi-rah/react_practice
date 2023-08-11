@@ -1,3 +1,4 @@
+import style from "./Custom.module.css"
 import React, { useState, useEffect } from 'react'
 
 function HooksPrac() {
@@ -8,11 +9,12 @@ function HooksPrac() {
     }, [data])
     return (
         <div>
-            <h1>Count : {count}</h1>
-            <h2>Data : {data}</h2>
+            <h1 className={style.success}>Count : {count}</h1>
+            <h2 className={style.warning}>Data : {data}</h2>
 
-            <button onClick={()=>setCount(count+1)}>Update Count</button> 
-            <button onClick={()=>setData(data+1)}>Update Data</button>
+            <button onClick={()=>setCount(count+1)} 
+            style={{color:"black",border:"none", backgroundColor:"skyblue",padding:10, margin:20, borderRadius:20}}>Update Count</button> 
+            <button onClick={()=>setData(data+1)} className={style.button}>Update Data</button>
 
         </div>
     )
