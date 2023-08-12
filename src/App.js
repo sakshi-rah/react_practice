@@ -1,10 +1,10 @@
 import './App.css';
-import FormValidation from './FormValidation'
+import MapListBs from './MapListBs';
 function App() {
   return (
 
     <div className="App">
-      <FormValidation/>
+      <MapListBs/>
     </div>
 
   );
