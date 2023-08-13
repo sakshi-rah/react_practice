@@ -1,10 +1,10 @@
 import './App.css';
-import MapListBs from './MapListBs';
+import UseMemoHook from './UseMemoHook';
 function App() {
   return (
 
     <div className="App">
-      <MapListBs/>
+      <UseMemoHook/>
     </div>
 
   );
