@@ -10,3 +10,4 @@ function UseRefHook_InputBox(props,inputRef) {
 }
 
 export default forwardRef (UseRefHook_InputBox)
+//forwardRef is use for getting info child to parent 
