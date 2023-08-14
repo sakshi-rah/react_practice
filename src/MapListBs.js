@@ -2,14 +2,15 @@ import React from 'react'
 import { Table } from 'react-bootstrap'
 
 function MapListBs() {
+
     const student = [
         {
-            name: "Sakshi Rahangdale", email: "sakshi123@gmail.com", rollNo: 11,contacts: [
+            name: "Sakshi Rahangdale", email: "sakshi123@gmail.com", rollNo: 11, contacts: [
                 { mobileNo: 1111, parentNo: 2222, telphoneNo: 3333 }
             ]
         },
         {
-            name: "Mukesh Pimpalkar", email: "mukesh123@gmail.com", rollNo: 12,contacts: [
+            name: "Mukesh Pimpalkar", email: "mukesh123@gmail.com", rollNo: 12, contacts: [
                 { mobileNo: 4444, parentNo: 5555, telphoneNo: 6666 }
             ]
         },
@@ -19,12 +20,12 @@ function MapListBs() {
             ]
         },
         {
-            name: "Atul Rahangdale", email: "atul123@gmail.com", rollNo: 14,contacts: [
+            name: "Atul Rahangdale", email: "atul123@gmail.com", rollNo: 14, contacts: [
                 { mobileNo: 1234, parentNo: 5678, telphoneNo: 9123 }
             ]
         },
         {
-            name: "Muskan Patle", email: "muskan123@gmail.com", rollNo: 15,contacts: [
+            name: "Muskan Patle", email: "muskan123@gmail.com", rollNo: 15, contacts: [
                 { mobileNo: 1122, parentNo: 3344, telphoneNo: 5566 }
             ]
         }
@@ -32,7 +33,7 @@ function MapListBs() {
     return (
         <div>
             <h2>List with Bootstrap Table</h2>
-            <Table striped  hover variant='primary'>
+            <Table striped hover variant='primary'>
                 <tbody>
                     <tr>
                         <td>Sr.No.</td>
@@ -42,10 +43,10 @@ function MapListBs() {
                         <td>Contact</td>
                     </tr>
 
-                    {
+                    {   
                         student.map((item, i) =>
                             <tr key={i}>
-                                <td>{i+1}</td>
+                                <td>{i + 1}</td>
                                 <td>{item.name}</td>
                                 <td>{item.email}</td>
                                 <td>{item.rollNo}</td>
